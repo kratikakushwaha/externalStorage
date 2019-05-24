@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   android:gravity=""
+    tools:context=".MainActivity">
+
+  <EditText
+      android:id="@+id/editText"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Name"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/InternalCachebtn"
+        android:text="Internal Cache"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ExternalCachebtn"
+        android:text="External Cache"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ExternalPrivatebtn"
+        android:text="External Private"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ExternalPublicbtn"
+        android:text="External Public"/>
+
+</LinearLayout>
